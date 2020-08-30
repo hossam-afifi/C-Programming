@@ -1,1 +1,1 @@
-# embedded_system-online-diploma
+# Embedded Projects
