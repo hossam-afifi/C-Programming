@@ -7,21 +7,16 @@
  */
 
 #include <stdio.h>
+
 int count=1;
+
 int power(int x,int y){
-
-	/*int i;
-	for(i=1;i<y;i++)
-	x*=y;*/
-
 	if(count<y){
 		++count;
-		//x*=x;
 		return x*power(x,y);
 	}
 	else
 		return x;
-	//return 1;
 }
 
 int main(){
